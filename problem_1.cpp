@@ -5,3 +5,17 @@ them. Print the result of summation and multiplication operations */
 //Full Name:
 
 //Write your code here
+#include <iostream>
+using namespace std;
+
+int main(int argc, const char * argv[]) {
+    int a=0;
+    int b=0;
+    cin>>a;
+    cin>>b;
+    cout<<a+b<<endl;
+    cout<<a*b<<endl;
+   
+    return 0;
+
+}
